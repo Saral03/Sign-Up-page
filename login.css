@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*background:linear-gradient(135deg,#71b7e6,#9b59b6)*/
+    background: url(coffee.jpg);
+    background-size: 100%;
+}
+.container{
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 10px;
+}
+form{
+    background-color: rgb(202, 173, 130);
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    border-radius: 35px;
+    border-style:dotted;
+}
+input{
+    border-radius: 15px;
+}
+.reg{
+    font-family:inherit;
+    text-align: center;
+}
+#but{
+    text-align:start;
+}
